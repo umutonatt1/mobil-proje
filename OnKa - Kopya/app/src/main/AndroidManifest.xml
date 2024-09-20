@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.OnKa"
+        tools:targetApi="31">
+        <activity
+            android:name=".hakkimizda"
+            android:exported="false"
+            android:theme="@style/Theme.OnKa" />
+        <activity
+            android:name=".makale15"
+            android:exported="false" />
+        <activity
+            android:name=".makale14"
+            android:exported="false" />
+        <activity
+            android:name=".makale13"
+            android:exported="false" />
+        <activity
+            android:name=".makale12"
+            android:exported="false" />
+        <activity
+            android:name=".makale11"
+            android:exported="false" />
+        <activity
+            android:name=".makale10"
+            android:exported="false" />
+        <activity
+            android:name=".makale9"
+            android:exported="false" />
+        <activity
+            android:name=".test3"
+            android:exported="false" />
+        <activity
+            android:name=".test2"
+            android:exported="false" />
+        <activity
+            android:name=".makale8"
+            android:exported="false" />
+        <activity
+            android:name=".makale7"
+            android:exported="false" />
+        <activity
+            android:name=".makale6"
+            android:exported="false" />
+        <activity
+            android:name=".makale5"
+            android:exported="false" />
+        <activity
+            android:name=".makale4"
+            android:exported="false" />
+        <activity
+            android:name=".makale3"
+            android:exported="false" />
+        <activity
+            android:name=".makale2"
+            android:exported="false" />
+        <activity
+            android:name=".makale1"
+            android:exported="false" />
+        <activity
+            android:name=".DetailedArticleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".HomePageActivity" />
+        <activity android:name=".TestActivity" />
+        <activity android:name=".Article1Activity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
